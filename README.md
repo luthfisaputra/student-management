@@ -1,6 +1,6 @@
 # 🧑‍🎓 Student Management CRUD – Java Spring Boot
 
-![Java](https://img.shields.io/badge/Java-17-blue)
+![Java](https://img.shields.io/badge/Java-25-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
 ![Build](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
@@ -28,16 +28,8 @@ Tujuan utama dari proyek ini:
 ---
 
 ## 📂 Struktur Folder
-src/
-├── main/
-│ ├── java/com/demosystem/studentmanagement/
-│ │ ├── controller/ # REST Controller (API)
-│ │ ├── entity/ # Model/Entity
-│ │ ├── repository/ # JPA Repository
-│ │ └── service/ # Service Layer (logic)
-│ └── resources/
-│ └── application.properties
-└── pom.xml
+<img width="374" height="263" alt="image" src="https://github.com/user-attachments/assets/4c3d40ee-0105-4c40-acd9-ebcf859d5389" />
+
 
 ---
 
@@ -49,6 +41,22 @@ src/
 | 🔍 Read by ID | `GET` | `/api/students/{id}` | Ambil data berdasarkan ID |
 | ✏️ Update | `PUT` | `/api/students/{id}` | Update data mahasiswa |
 | ❌ Delete | `DELETE` | `/api/students/{id}` | Hapus mahasiswa |
+
+---
+
+## 🚀 Cara Menjalankan Project
+1. **Clone repository**
+   ```bash
+   git clone https://github.com/luthfisaputra/student-management.git
+2. **Masuk ke folder**
+   ```bash
+   cd student-management
+3. **Jalankan aplikasi**
+   ```bash
+   mvn spring-boot:run
+4. **Akses API**
+   ```bash
+   http://localhost:8080/api/students
 
 ---
 

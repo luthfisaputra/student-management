@@ -18,7 +18,7 @@ Tujuan utama dari proyek ini:
 ---
 
 ## ⚙️ Tech Stack
-- ☕ **Java 17**
+- ☕ **Java 25**
 - 🌱 **Spring Boot 3**
 - 🗄️ **MySQL Database**
 - 🧩 **Maven**
@@ -48,7 +48,7 @@ Tujuan utama dari proyek ini:
 **POST /api/students**
 ```json
 {
-  "fullName": "Luthfi Saputra",
-  "email": "luthfi@example.com",
-  "enrollmentYear": 2023
+  "fullName": "Your Name",
+  "email": "yourname@example.com",
+  "enrollmentYear": 2025
 }

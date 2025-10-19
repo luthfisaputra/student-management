@@ -44,22 +44,6 @@ Tujuan utama dari proyek ini:
 
 ---
 
-## 🚀 Cara Menjalankan Project
-1. **Clone repository**
-   ```bash
-   git clone https://github.com/luthfisaputra/student-management.git
-2. **Masuk ke folder**
-   ```bash
-   cd student-management
-3. **Jalankan aplikasi**
-   ```bash
-   mvn spring-boot:run
-4. **Akses API**
-   ```bash
-   http://localhost:8080/api/students
-
----
-
 ## 🧠 Contoh Body JSON
 **POST /api/students**
 ```json
